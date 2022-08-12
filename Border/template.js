@@ -107,9 +107,9 @@ OrgChart.templates.myTemplate.minus = '';
 });
 
 nodes = [
-        { id: 1, tags: ["root"], name: "Jack Hill", title: "CEO" },
-        { id: 9, pid: 1, tags: ["assistant", "root"], title: "Sales Manager", name: "Lexie Cole" },
-
+        { id: 1, tags: ["root"], name: "صاحب السمو حاكم دبي", title: "مركز الحوكمة" },
+        { id: 9, pid: 1, tags: ["assistant", "root"], title: "جهة مركزية", name: "ديوان سمو الحاكم" },
+		{ id: 10, pid: 1, tags: ["assistant", "root"], title: "جهة مركزية", name: "المكتب التنفيذي" },
         { id: 2, pid: 1, tags: ["orange"], title: "Sales Manager", name: "Lexie Cole" },
         { id: 3, pid: 1, name: "Janae Barrett", title: "Dev Manager", data: "some dtata here" },
         { id: 4, pid: 2, tags: ["orange"], name: "Aaliyah Webb", title: "Sales", data: "some data here" },
